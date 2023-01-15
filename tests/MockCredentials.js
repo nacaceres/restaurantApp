@@ -21,8 +21,10 @@ class Credentials {
   static accessToken = null;
 
   /**
-   * Setter method for email and password attributes.
+   * Setter method for accessToken attribute.
    * @static
+   * @async
+   * @param {string} url - The url to obtain the credentials
    */
   static async setCredentials(url) {
     if (this.accessToken === null) {
@@ -43,9 +45,9 @@ class Credentials {
   }
 
   /**
-   * Getter method for email and password attributes.
+   * Getter method for accessToken attribute.
    * @static
-   * @return {object} An object with the credentials.
+   * @return {string} The accessToken.
    */
   static getCredentials() {
     return this.accessToken;

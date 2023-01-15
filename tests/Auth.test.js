@@ -1,3 +1,12 @@
+/** Module for testing all auth services
+ * @module test/Auth.test
+ * @requires request
+ * @requires path
+ * @requires dotenv
+ * @requires app
+ * @requires PostgresConnection
+ * @requires uuid
+ */
 /**
  * request module
  * @const

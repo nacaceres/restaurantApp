@@ -1,3 +1,12 @@
+/** Module for testing all restaurants services
+ * @module test/Auth.test
+ * @requires request
+ * @requires path
+ * @requires dotenv
+ * @requires app
+ * @requires PostgresConnection
+ * @requires MockCredentials
+ */
 /**
  * request module
  * @const
