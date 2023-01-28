@@ -1,6 +1,6 @@
 # restaurantApp
 
-An backend app for user registration, login, logout, and for getting the restaurants near a location (city or coordinates).
+A backend app for user registration, login, logout, and for getting the restaurants near a location (city or coordinates).
 
 # Technologies used
 
